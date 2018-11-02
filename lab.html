@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1><a href="index.html" id="escape">HCI Technologies</a></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="exertion.html">Exertion Gaming</a></li>
+				<li><a href="arvr.html">AR &amp; VR</a></li>
+				<li><a href="wearables.html">Wearables</a></li>
+				<li><a href="artificialcreatures.html">Artificial Creatures</a></li>
+				<li><a href="ws.html">Workshop</a></li>
+				<li><a href="excursion.html">Excursion</a></li>
+				<li><a href="lab.html">Labweken</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Lab weeks</h2>
+		<h3>Proces</h3>
+		<h4>Dag 1 - 4 juni 2018</h4>
+		<p>
+			Eerste dag hebben we concepten bedacht en ideeën gebrainstormd. Van de ideeën hebben we een top 5 gemaakt:
+		</p>
+		<ol>
+			<li>Interactive playground, Een voorbeeld die wij hadden gevonden was een interactieve muur die gebruiker wordt als doel voor handbal of voetbal. Een ander voorbeeld is vies en lekkertje spelen met lichten die aangeven waar kinderen kunnen staan. We hadden verschillende voorbeelden bedacht die zowel binnen als buiten individueel of samen gedaan konden worden.</li>
+			<li>Station game, gebaseerd op de mobiele game draw something waarbij je met een andere persoon tegenover het perron het spel speelt. Er wordt hier gebruik gemaakt van een smartboard om op te tekenen</li>
+			<li>Supermarkt route, de winkelwagen laat door middel van strips de kortste rout zien aan de gebruiker. Tim vond dit een goed idee.</li>
+			<li>Disco stairs, met sensoren worden de voetstappen gedetecteerd en gaan de trappen licht geven. Als er meerdere mensen de trap nemen dan zullen er meerdere lichten aangaan en een soort van disco effect veroorzaken.</li>
+			<li>Muziek, met beweging wordt er geluid gecreëerd. Bijvoorbeeld met een controller dirigeren en op die manier de muziek maken.</li>
+		</ol>
+		<p>
+			We hebben de supermarkt route gekozen en besloten om dit de volgende dag uit te testen. Voor de supermarkt route idee hadden we in gedachte om LED strips aan de bovenzijkanten van de winkelwagen te plakken en deze geven licht om richting aan te geven. De gebruiker heeft in dit geval op zijn telefoon zijn boodschappen staat met een app en “scant” het lijstje zogezegd in de winkelwagen. De LEDs laten aan de gebruiker zien welke richting schappen ze in moeten rijden en dit zorgt ervoor dat de gebruiker de kortste route neemt door de winkel. De LEDs herkennen de locatie in de winkel door middel van markers. Dit zal geprogrammeerd worden met processing, Arduino en de processing library TUIO. De markers werken gecombineerd met TUIO. Vandaag is er al getest met TUIO en is er aan de praat gekregen om LED lampjes te laten reageren op de markers via de webcam.<br><br>
+
+			Stappen verder zijn dat de winkelwagen de producten automatisch scant wanneer ze in de winkelwagen worden gedaan, De snelheid en tijd meten en dit in een score zetten voor competitie en de laatste stap is eventueel een karretje maken die van zichzelf rijdt. Voor nu focussen wij ons op de eerste stap, wat de laat zien waar de winkelwagen naar toe moet door middel van LEDs.<br><br>
+
+			Voor deze eerste test hebben we een winkelwagen nodig en ik heb geregeld dat we de volgende dag een winkelwagen konden gebruiken. Verder heb ik meegedacht met de concepten, ideeën bedacht in de brainstorm en meegedaan aan research voor het concept.<br><br>
+		</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mzMnyhtynfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<img src="img/day1.JPG" alt="An image">
+		
+		<h4>Dag 2 - 5 juni 2018</h4>
+		<p>
+			Voor de tweede dag heb ik de winkelwagen gebracht naar Zoetermeer, ik heb schetsen gemaakt van het concept, plattegrond gemaakt voor het testen en de webcam kunnen verbinden aan reacTIVision.<br><br>
+
+			De winkelwagen zal gebruikt worden om te testen en is de basis voor ons concept met de supermarkt. De ideeën heb ik geschetst en opgehangen aan het boord. De schets bevat alle functionaliteiten die we hadden opgenoemd, dus niet alles wordt uitgewerkt maar het is wel uitgetekend. Daarnaast heb ik ook kort geschetst hoe de camera werkt met de marker van TUIO. De plattegrond van het testen bevat kort uitgebeeld en beschreven wat we willen testen om te zien of het werkt. Voor het programmeren van de markers van TUIO gebruiken we een programma genaamd reacTIVision, wat door middel van een camera de markers herkent. Voor de winkelwagen hadden we het idee om gebruik te maken van een externe camera die de markers zal herkennen. We hebben voor elkaar gekregen dat het programma de camera gebruikt.<br><br>
+
+			Problemen die we de volgende dag gaan oplossen zijn:
+		</p>
+		<ul>
+			<li>De winkelwagen versieren</li>
+			<li>bedenken hoe we de webcam los van Arduino kunnen laten werken</li>
+			<li>Achterliggende game bedenken zodat er meer exertion wordt toegepast.</li>
+		</ul>
+		
+		<h4>Dag 3 - 6 juni 2018</h4>
+		<p>
+			Voor vandaag hebben we verder geprobeerd om de problemen van gisteren en nieuwe problemen op te lossen.
+			<ul>
+				<li>De winkelwagen versieren</li>
+				<li>bedenken hoe we de webcam los van Arduino kunnen laten werken</li>
+				<li>Achterliggende game bedenken zodat er meer exertion wordt toegepast.</li>
+			</ul>
+			Problemen die ik vandaag probeerde op te lossen waren de knipperlicht tijd van de LEDs en rotatie toepassen op de markers. 
+		</p>
+		<img src="img/day3.jpg">
+
+		<h4>Dag 4 - 7 juni 2018</h4>
+		<p>
+			Voor de vierde dag hebben we het volgende gedaan:
+		</p>
+		<ul>
+			<li>met Arduino getest of de LEDs gaan blinken en dat ze gaan stoppen na een aantal keer blinken</li>
+			<li>We hebben het concept weer aangepast en dit aangescherpt </li>
+			<li>Voor het nieuwe concept hebben we Unity uitgetest</li>
+			<li>Voor Unity heb ik met Blender een object gemaakt.</li>
+		</ul>
+		<p>
+			Met Arduino is er weer verder getest of we LEDs konden laten blinken en ze te laten stoppen op een bepaalde tijd. Vandaag was daarvoor een oplossing gevonden en zal daarmee verder gewerkt worden om het gewenste resultaat te krijgen. Het concept hebben we aangepast zodat het meer richting de exertion gaming gaat. We hebben nu in dit nieuwe concept besloten om samen met een beamer en Unity te gaan werken. We zijn van plan om met Unity een game te bouwen en dit samen te laten werken met de winkelwagen. De beamer projecteert de game op een wand en de winkelwagen zal gebruikt worden als een soort van controller die de winkelwagen in de game zelf bestuurt. Er zal dan op de paden gezond en niet gezond eten geplaatst worden, wat opgeraapt kan worden door de kar. Deze producten kunnen punten geven of of er kunnen punten worden afgetrokken. Wij zijn uiteindelijk van plan om het scherm in een soort van halve cirkel te plaatsen zodat de speler meer immersed is in de game. Daarnaast wordt er op de winkelwagen nog LEDs gebouwd met de reden zodat de game feedback kan geven aan de speler en om dat we nog onderdelen van ons vorige concept wilde hergebruiken. <br><br>
+
+			We zijn ook begonnen met Unity en Blender. Met Unity willen wij de game bouwen en zijn we nu de basis aan het maken. De game wordt gemaakt als een oneindige hal met het thema van een supermarkt. In Blender willen we de producten maken en dit in Unity gebruiken. Ik ben vandaag begonnen te leren werken met Blender en heb een appel gemaakt. Daarnaast had ik ook nog gekeken naar de accelerometer en gyroscoop, hoe dit werkt en hoe dit mogelijk gebruikt kan worden.<br><br>
+
+			Vandaag hadden we ook een gastcollege van Vincent Lindeboom van Next empire. Het was een inspirerende college en er kwamen veel voorbeelden langs van projecten die Next Empire hebben gedaan, zoals een project voor de Eftelingzoetrope of een project voor Sony met AR.
+		</p>
+		<img src="img/day4.png">
+
+		<h4>Dag 5 - 8 juni 2018</h4>
+		voor de laatste dag van week 1 is het gelukt om de LED strips aan TUIO te verbinden en om het te laten knipperen. Het knipperen werkt niet 100%, maar het gaat de goede richting op. Daarnaast is er ook al een prototype gemaakt voor het versieren van de winkelwagen met karton en ook al een kartonnen houder gemaakt voor de hardware. In Unity is er verder met de game gebouwd en is het gelukt om het spel oneindig te laten lopen. In Blender is het mij gelukt om meer producten te maken, zoals een andere kleur appel, een peer en een wortel. Daarnaast heb ik getest of dit ook in Unity geplaatst kon worden en of het ook daarin werkt.<br><br>
+
+		In Blender ben ik tegen een paar problemen aangekomen, maar deze problemen hebben vooral te maken met hardware. Om bepaalde functies te gebruiken heb ik een ander toetsenbord nodig vanwege bepaalde snelkoppelingen, zoals de nummers op de numpad die de macbook pro standaard niet heeft.<br><br>
+
+		Vandaag was er ook weer een gastcollege gegeven door Peter van de Putten van de Universiteit Leiden. Er kwamen veel voorbeelden langs die te maken hadden met menselijke kwaliteiten. Er kwamen voorbeelden langs van emotional bots, creative bots, helpless bots, misbeharing bots, pooping bots en useless bots.<br>
+		<a href="https://sites.google.com/view/botslikeyou/home">Click here for their website</a><br><br>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iNGKpdlBSWI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/W6SqIBoC0w0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+		<h4>Dag 6 - 11 juni 2018</h4>
+		<p>
+			We waren eerst begonnen met een scrum sessie, waarbij we keken wat we gister gedaan hadden, wat we vandaag moesten doen en wie wat ging doen. Er was vandaag weer verder gewerkt met de kar en de LEDs, is er verder gewerkt aan de game in Unity, in Blender figuurtjes gemaakt en gebrainstormd voor een naam.<br><br>
+
+			Met TUIO was het gelukt om de LEDs te laten blinken tot een bepaalde tijd en het ook daadwerkelijk te laten stoppen. Dit hebben we vastgemaakt aan de prototype winkelwagen om te testen met Processing en de camera. Daarnaast is er een nieuwe winkelwagen gehaald van de lokale supermarkt en wordt de eerste supermarkt teruggebracht. De eerste winkelwagen rolde niet soepel en dat beperkte de beweging van de kart. Vrijdag hadden we de lokale supermarkt gebeld en gevraagd om toestemming en die hadden we vandaag met mijn auto opgehaald. Met deze kar was het prototype verder mee gebouwd.<br><br>
+
+			In Blender had ik verder objecten gemaakt die in Unity gebruikt kunnen worden. ik had een cookie, chocola en een pak melk gemaakt. Ik heb hiervoor geprobeerd het zelf te maken en een tutorial erbij gepakt van YouTube.<br><br>
+
+			Aan het einde van de dag hebben we nog gebrainstormd voor een naam voor ons concept. Hiervoor hebben we op een groot wit vel namen opgeschreven wat bij ons het eerst naar boven kwam. Namen zoals shop-je-mall of superkart kwamen naar voren. Uiteindelijk hebben we gekozen voor FoodRush. Hiervoor zal een logo gemaakt worden de volgende dag.
+		</p>
+		<ul>
+			<li>begonnen met scrum sessie</li>
+			<li>blender figuurtjes gemaakt </li>
+			<li>nieuwe winkelwagen</li>
+			<li>leds blinken met TUIO gelukt </li>
+			<li>Unity gebouwd</li>
+			<li>prototype van de kar verder gebouwd</li>
+			<li>geëindigd met brainstormen van een naam voor het concept</li>
+		</ul>
+		<img src="img/blender.png">
+		<img src="img/day6.jpg" class="imgHC">
+
+		<h4>Dag 7 - 12 juni 2018</h4>
+		<p>
+			Vandaag was de logo gemaakt voor het concept FoodRush, onderzoek gedaan om processing te verbinden met de controls van Unity, hebben we een expo locatie gekozen, was vandaag de CMDate in de DIF en hebben we de locatie getest.<br><br>
+
+			Gebaseerd op het concept hebben wij een logo gemaakt. We hebben een winkelwagen gebruikt en elementen die de “Rush” aangegeven in de naam. De winkelwagen was gekozen omdat concept draait om de winkelwagen zelf en het wordt ook gebruikt in het spel. Onze volgende stap in het verbinden van de winkelwagen en het spel, was de verbinding tussen processing en Arduino voor de besturing van het spel. Hierbij hebben we externe hulp gevraagd en die heeft ons geholpen met het coderen. Daarnaast was er ook verder gewerkt aan het spel in Unity.<br><br>
+
+			De locatie die wij hadden gekozen is een vrij donkere plek, zodat de LEDs en de beamer goed te zien zijn. We liepen wel tegen een probleem op. De afstand van de beamer bepaalt de grootte van het scherm en wij hadden in onze gedachte dat het scherm ongeveer even hoog is als een persoon zelf. Daarnaast is het scherm ook gedeeltelijk geroteerd, dus is het scherm niet recht op de muur geprojecteerd. <br><br>
+
+			Vandaag was er ook de CMDate in de DIF. Bedrijven kwamen langs de DIF en die bezochte tafels en vroegen naar ons concept. We hadden aan hun de winkelwagen laten zien en hoe het werkte. Wij hadden aan hun gevraagd over stage en de mogelijkheden. Het waren vooral start-ups waar je stage kon lopen.
+		</p>
+		<ul>
+			<li>logo gemaakt</li>
+			<li>research unit koppelen aan processing</li>
+			<li>expo locatie gekozen</li>
+			<li>bedrijven die langs onze tafel kwamen
+				<ul>
+					<li>onze kart laten zien en ons concept uitgelegd</li>
+				</ul>
+			</li>
+			<li>beamer getest</li>
+		</ul>
+		<img src="img/day7.jpg" class="imgHC">
+		<img src="img/logo.png" class="imgHC">
+		
+		<h4>Dag 8 - 13 juni 2018</h4>
+		<p>
+			Vandaag kwamen er kinderen op bezoek en die hebben verschillende concepten getest in de DIF, ik had getest met de beamer en MadMapper en hadden we de afstand probleem van gisteren opgelost. Daarnaast hebben supermarkt producten geschilderd op een vel voor decoratie in de kar.<br><br>
+
+			Er kwam een groep kinderen de DIF bezoeken en die hebben bij verschillende groepen hun concepten uitgeprobeerd. dit was een mooie kans om hun concept te testen en om om nieuwe ideeën te verwerven. Onze winkelwagen was jammer genoeg naar buiten meegenomen om vanwege het verven van de producten. Dus wij konden niets testen. Ik had geprobeerd te testen om het scherm recht te trekken met MadMapper, alleen liep ik tegen het probleem aan dat het logo van MadMapper op de achtergrond zweefde en dat ik de licensed version nodig had om MadMapper met Unity te verbinden. Dus dit had ik opgegeven en besloot ik te zoeken naar een andere oplossing.<br><br>
+
+			Gister hadden we een probleem met de beamer en de projectie ervan, maar dit was uiteindelijk opgelost door van locatie te wisselen. We deelde de locatie met een ander groep, maar met hun hadden we gewisseld. Hierdoor hoefde we ook geen MadMapper te gebruiken.
+		</p>
+		<ul>
+			<li>kinderen die op bezoek kwamen</li>
+			<li>kinderen testpersonen</li>
+			<li>beamer getest met MadMapper</li>
+			<li>locatie verplaatst</li>
+			<li>Fruit en groente geschilderd op een stuk papier om de binnenkant van de winkelwage te bedekken</li>
+		</ul>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/PP7RFbH6S44" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+		<h4>Dag 9 - 14 jni 2018</h4>
+		<p>
+		De dag voor de expo hebben we de items in de game omgezet naar supermarkt producten, zoals appels , wortels, chocola, etc. Deze producten heb ik in Blender gemaakt. Daarnaast is er een puntentelling in Unity gebouwd en is de kar getest met de game in combinatie met de tuio markers. Als laatse stap hebben we gezamelijk supermarkt schappen gekocht in de online store van Unity en deze aan de zijkanten geplaatst van de baan waar de winkelwagen op rijdt in de game. Een ander ding dat vandaag gedaan was, was processing met Arduino verbinden, waarbij de LEDs als test moesten aan gaan. In het begin deed dit het niet, maar dit is uiteindelijk opgelost door externe hulp. 
+		</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HHFFgohZyVg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QkAAGREbu2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+		<h4>Dag 10 - 15 juni 2018</h4>
+		<p>
+		Vandaag is de dag van de expo. De locatie waar we onze expo houden hebben we voorbereid en op de muur hebben we de naam van onze game, Food Rush, met post-its neergezet. Daarnaast hebben we op een groot vel een scoreboard opgezet, zodat mensen hun scores bij kunnen houden en andere scores kunnen verslaan. De expo zelf werd in de avond gehouden. Tijdens de expo hebben we verschillende mensen gehad die onze game uit probeerde, kinderen, ouders, andere studenten.<br>
+		</p>
+		<img src="img/expo1.jpg" alt="An image" class="imgHC">
+		<img src="img/expo2.jpg" alt="An image" class="imgHC">
+		<img src="img/expo3.jpg" alt="An image" class="imgHC">
+		
+		<h3>Product</h3>
+		<p>
+			Ons eindproduct is een game waarbij een fysieke winkelwagen wordt gebruikt als de controller in de game en valt onder het onderwerp Exertion Gaming. De game speelt zich af in een virtuele supermarkt en in de game ben je producten zoals appels en wortels aan het oprapen terwijl je obstakels ontwijkt. Om de winkelwagen in de game te verplaatsten, dan moet eerst de fysieke winkelwagen verplaatst worden. Op deze manier verplaatst je van baan in de game en ben je actief bezig. Een camera die onder de winkelwage is geplaatst herkent de fiducial (markering of simpel gezegd een special QR code) en reageert wanneer de camera de fiducial leest. Wanneer dat gebeurt, dan gaan de LEDs aan, afhankelijk van welke kant de gebruiker de winkelwagen wilt opsturen, en verplaatst de winkelwagen in de game.<br>
+		</p>
+		<img src="img/game2.jpg" class="imgHC">
+		<img src="img/game3.jpg" class="imgHC">
+		<img src="img/game4.jpg" class="imgHC">
+		<img src="img/game1.jpg" class="imgHC">
+		<img src="img/expo4.jpg" class="imgHC">
+		<img src="img/fiducial.jpg" class="imgHC">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/vVv--043eGQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="imgVC" id="productVid"></iframe>
+		Als de video niet werkt, <a href="https://www.youtube.com/watch?v=vVv--043eGQ&feature=youtu.be">klik dan hier</a> voor de video.
+		<h3>Reflect</h3>
+		<p>
+			Ik ben erg blij met het eindresultaat en hoe het is afgelopen met de expo. De reactie was erg positief en veel mensen zijn bij ons langsgekomen die avond. We hadden als groep grote en geweldige ideeën en dit hebben we in de 2 weken afgebakend naar een haalbaar product, waarbij onze originele ideeën nog aanwezig zijn.<br><br>
+
+			Wat betreft de kwaliteit van ons werk, zou ik zeggen dat we best wel goed hebben gedaan in deze 2 weken. Na twee weken hebben we uiteindelijk tijdens de expo een werkende game, een winkelwagen met  LEDs en alles werkte samen als een geheel. We hebben nog last-minute dingen toegevoegd, zoals de lege drinkflessen om ervoor te zorgen dat de kar niet te ver naar links of rechts schoot. Dit kon misschien beter gedaan worden,	maar overal ben ik blij met de kwaliteit van ons werk. Mijn inzet vergeleken met de rest kon beter. Ik kon in de eerste week geen vaste taak vinden waar ik aan kon werken, naast het gezamelijk onderzoek doen, brainstormen en ideeën bedenken. Pas in de tweede week heb ik een vaste taak opgenomen en dat was om de supermarkt producten te maken in Blender, maar het zou fijn geweest zijn als ik ook ergens ander bij kon helpen. Dit kon mogelijk zijn dat ik te weinig vroeg of ik kon helpen en het feit dat andere er vast aan zaten te werken dus was het moeilijk om er midden in te springen.<br><br>
+
+			Tijdens de twee weken waren er vaak momenten van frustratie vanwege problemen, maar we bleven gemotiveerd om deze problemen op te lossen en hebben daardoor veel geleerd. Ook door deze tijdsdruk hebben we onszelf moeten leren om onderdelen te kunnen maken in bijvoorbeeld Unity, Blender of Arduino. Dagelijks hebben we door middel van scrum onze taken bijgehouden en dat zou dan onze taak worden voor de hele dag. Tijdsverdeling was er niet, aangezien we flexibel waren in onze tijden.
+		</p>
+	</main>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+body {
+	font-family: avenir next, tahoma;
+
+	background-image: linear-gradient(to bottom right, #199bdb, #3ed5db, #97e9e7, white);
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+
+header {
+	margin: 0px 20px;
+	display: flex;
+}
+
+main {
+	padding: 20px 40px;
+	background-color: white;
+}
+
+
+nav {
+	width: 100vw;
+	
+}
+
+nav ul {
+	display: flex; 
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+	margin: 40px 0px;
+	
+}
+
+nav ul li { 
+	flex-grow: 1;
+	list-style-type: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img { 
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imgVC {
+	display: block;
+	margin: 20px auto;
+}
+
+.imgHC {
+	display: inline;
+	vertical-align: middle;
+	width: 33%;
+}
+
+#pp {
+	display: block;
+	margin: 20px auto;
+	width: 15%;
+}
+
+#escape {
+	text-decoration: none;
+}
+
+#escape, h1 {
+	font-family: 'Caveat', bold;
+	font-size: 42px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	margin-top: 40px;
+}
+
+h4 {
+	font-family: 'Caveat';
+	font-size: 24px;
+	margin: 40px 0px 0px 0px;
+}
+
+.centerText {
+	text-align: center;
+}
+
+iframe {
+	width: 45%;
+}
+
+#productVid {
+	width: 80%;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 600px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+	
+}
